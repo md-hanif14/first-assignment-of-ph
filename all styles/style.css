@@ -195,9 +195,12 @@ p, h1{
     gap: 12px;
 }
 .subscribe {
+    display: flex;
     width: 100%;
+    flex-direction: column;
 }
 .subscribe .btn-primary {
+    width: 35%;
     background: #006aba;
     color: white;
     height: 55px;
@@ -210,3 +213,31 @@ p, h1{
     border-radius: 6px;
     padding-left: 10px;
 }
+
+/* positive mindset */
+
+.bg_img {
+    background-image:  url('../images/gradient1.png'), url('../images/watch.png');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    max-width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10rem;
+    border-radius: 6px;
+    height: 17rem;
+
+}
+
+
+.positive_text {
+    font-size: large;
+    color: white;
+    padding: 60px 0 0 70px;
+    max-width: 30%;
+}
+.positive_text .btn-primary {
+    height: 57px;
+}
+
+
