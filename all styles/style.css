@@ -1,5 +1,13 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
 * {
     margin: 0;
+}
+body  {
+    font-family: 'Open Sans', sans-serif;
+}
+body p, body ul li {
+    line-height: 2;
+
 }
 
 .all-think {
@@ -31,12 +39,12 @@
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
-    font-family: 'Work Sans';
+   
 }
 
 .all-think-text {
     margin-bottom: 40px;
-    line-height: 2;
+   
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
@@ -53,4 +61,102 @@
     background: white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* failures */
+.failures {
+
+    margin-top: 10rem;
+    max-width: 65%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10rem;
+
+}
+
+.failures-description {
+    width: 100%;
+    text-align: left;
+    position: relative;
+
+}
+
+.fail-desc-ch {
+    width: 90%;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+
+}
+
+.failures-text {
+    margin-bottom: 10px;
+
+}
+
+.failures-img {
+    height: 100%;
+    width: 100%;
+}
+
+.failures-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ul li styles */
+.failures-list li::marker {
+    content: '\2713';
+    color: blue;
+
+}
+
+.gap {
+    padding: 0 10px;
+}
+
+.failures-head {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-size: 2.5rem;
+    margin-bottom: 13px;
+
+}
+
+/* my plan */
+.plan_parent  {
+    /* margin-top: 10rem; */
+    max-width: 65%;
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10rem;
+
+}
+.plan_head {
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.plan_head h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.plans {
+    gap: 8rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.plans_ch img, .plans_ch h3 {
+    margin-bottom: 10px;
+}
+.plans_ch {
+    text-align: center;
+}
+.plans_ch p{
+    color: #737272;
+
 }
