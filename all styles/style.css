@@ -1,243 +1,260 @@
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
-* {
-    margin: 0;
-}
-body  {
-    font-family: 'Open Sans', sans-serif;
-}
-body p, body ul li {
-    line-height: 2;
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-}
-p, h1{
-    margin-bottom: 13px;
-}
+ * {
+     margin: 0;
+ }
 
+ body {
+     font-family: 'Open Sans', sans-serif;
+ }
 
-.all-think {
+ body p,
+ body ul li {
+     line-height: 2;
 
-    background: url('../images/banner/banner3.png') no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 950px;
-    background-position: top;
-    display: flex;
-    justify-content: right;
+ }
+
+ p,
+ h1 {
+     margin-bottom: 13px;
+ }
 
 
+ .all-think {
 
-}
-
-.all-think-content {
-    width: 30%;
-    height: 50%;
-    text-align: right;
-
-    padding: 15rem 11rem 6rem;
-
-
-}
-
-.all-think-title {
-    margin-bottom: 40px;
-    font-weight: 700;
-    font-size: 65px;
-    color: #FFFFFF;
-   
-}
-
-.all-think-text {
-    margin-bottom: 40px;
-   
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-
-}
-
-.btn-primary {
-    color: #006aba;
-    font-weight: 700;
-    font-size: 20px;
-    border: 0;
-    padding: 18px 35px;
-    height: 64px;
-    background: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* failures */
-.failures {
-
-    margin-top: 10rem;
-    max-width: 65%;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10rem;
-
-}
-
-.failures-description {
-    width: 100%;
-    text-align: left;
-    position: relative;
-
-}
-
-.fail-desc-ch {
-    width: 90%;
-    position: absolute;
-    bottom: 60px;
-    right: 0;
-
-}
-
-.failures-text {
-    margin-bottom: 10px;
-
-}
-
-.failures-img {
-    height: 100%;
-    width: 100%;
-}
-
-.failures-img img {
-    width: 100%;
-    height: 100%;
-}
+     background: url('../images/banner/banner3.png') no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 950px;
+     background-position: top;
+     display: flex;
+     justify-content: right;
 
 
-/* ul li styles */
-.failures-list li::marker {
-    content: '\2713';
-    color: blue;
 
-}
+ }
 
-.gap {
-    padding: 0 10px;
-}
+ .all-think-content {
+     width: 30%;
+     height: 50%;
+     text-align: right;
 
-.failures-head {
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    font-size: 2.5rem;
-    margin-bottom: 13px;
-
-}
-
-/* my plan */
-.plan_parent  {
-    /* margin-top: 10rem; */
-    max-width: 65%;
-    
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10rem;
-
-}
-.plan_head {
-    margin-bottom: 50px;
-    text-align: center;
-
-}
-.plan_head h1 {
-    font-weight: 700;
-    font-size: 2rem;
-}
-.plans {
-    gap: 8rem;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.plans_ch img, .plans_ch h3 {
-    margin-bottom: 10px;
-}
-.plans_ch {
-    text-align: center;
-}
-.plans_ch p{
-    color: #737272;
-
-}
-/* footer */
-.footer {
-   height: 100%;
-    width: 100%;
-    background: black;
-    color: white;
-    
-    
-}
-
-.fut_subs {
-    display: flex;
-    gap: 40px;
-    padding-top: 10rem;
-    max-width: 65%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 10rem;
-}
-
-.future {
-    width: 100%;
-}
-.future_head {
-
-}
-.future_icon {
-    display: flex;
-    gap: 12px;
-}
-.subscribe {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-.subscribe .btn-primary {
-    width: 35%;
-    background: #006aba;
-    color: white;
-    height: 55px;
-}
-.subscribe input[type=text] {
-    height: 45px;
-    margin-bottom: 13px;
-    /* float: left; */
-    width: 64%;
-    border-radius: 6px;
-    padding-left: 10px;
-}
-
-/* positive mindset */
-
-.bg_img {
-    background-image:  url('../images/gradient1.png'), url('../images/watch.png');
-    background-position: left top, right bottom;
-    background-repeat: no-repeat, no-repeat;
-    max-width: 65%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10rem;
-    border-radius: 6px;
-    height: 17rem;
-
-}
+     padding: 15rem 11rem 6rem;
 
 
-.positive_text {
-    font-size: large;
-    color: white;
-    padding: 60px 0 0 70px;
-    max-width: 30%;
-}
-.positive_text .btn-primary {
-    height: 57px;
-}
+ }
+
+ .all-think-title {
+     margin-bottom: 40px;
+     font-weight: 700;
+     font-size: 65px;
+     color: #FFFFFF;
+
+ }
+
+ .all-think-text {
+     margin-bottom: 40px;
+
+     font-weight: 400;
+     font-size: 18px;
+     color: #FFFFFF;
+
+ }
+
+ .btn-primary {
+     color: #006aba;
+     font-weight: 700;
+     font-size: 20px;
+     border: 0;
+     height: 64px;
+     background: white;
+     border-radius: 5px;
+     cursor: pointer;
+     text-align: center;
+     height: 55px;
+     padding: 0 18px;
+ }
+
+ /* failures */
+ .failures {
+
+     margin-top: 10rem;
+     max-width: 65%;
+     display: flex;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 10rem;
+
+ }
+
+ .failures-description {
+     width: 100%;
+     text-align: left;
+     position: relative;
+
+ }
+
+ .fail-desc-ch {
+     width: 90%;
+     position: absolute;
+     bottom: 60px;
+     right: 0;
+
+ }
+
+ .failures-text {
+     margin-bottom: 10px;
+
+ }
+
+ .failures-img {
+     height: 100%;
+     width: 100%;
+ }
+
+ .failures-img img {
+     width: 100%;
+     height: 100%;
+ }
 
 
+ /* ul li styles */
+ .failures-list li::marker {
+     content: '\2713';
+     color: blue;
+
+ }
+
+ .gap {
+     padding: 0 10px;
+ }
+
+ .failures-head {
+     margin-block-start: 0.67em;
+     margin-block-end: 0.67em;
+     font-size: 2.5rem;
+     margin-bottom: 13px;
+
+ }
+
+ /* my plan */
+ .plan_parent {
+     /* margin-top: 10rem; */
+     max-width: 65%;
+
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 10rem;
+
+ }
+
+ .plan_head {
+     margin-bottom: 50px;
+     text-align: center;
+
+ }
+
+ .plan_head h1 {
+     font-weight: 700;
+     font-size: 2rem;
+ }
+
+ .plans {
+     gap: 8rem;
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+
+ .plans_ch img,
+ .plans_ch h3 {
+     margin-bottom: 10px;
+ }
+
+ .plans_ch {
+     text-align: center;
+ }
+
+ .plans_ch p {
+     color: #737272;
+
+ }
+
+ /* footer */
+ .footer {
+     height: 100%;
+     width: 100%;
+     background: black;
+     color: white;
+
+
+ }
+
+ .fut_subs {
+     display: flex;
+     gap: 40px;
+     padding-top: 10rem;
+     max-width: 65%;
+     margin-right: auto;
+     margin-left: auto;
+     padding-bottom: 10rem;
+ }
+
+ .future {
+     width: 100%;
+ }
+
+ .future_head {}
+
+ .future_icon {
+     display: flex;
+     gap: 12px;
+ }
+
+ .subscribe {
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+ }
+
+ .subscribe .btn-primary {
+     width: 35%;
+     background: #006aba;
+     color: white;
+     height: 55px;
+ }
+
+ .subscribe input[type=text] {
+     height: 45px;
+     margin-bottom: 13px;
+     /* float: left; */
+     width: 64%;
+     border-radius: 6px;
+     padding-left: 10px;
+ }
+
+ /* positive mindset */
+
+ .bg_img {
+     background-image: url('../images/gradient1.png'), url('../images/watch.png');
+     background-position: left top, left top;
+     background-repeat: no-repeat, no-repeat;
+     max-width: 65%;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 10rem;
+     border-radius: 6px;
+     height: 17rem;
+     background-size: cover;
+
+ }
+
+
+ .positive_text {
+     font-size: large;
+     color: white;
+     padding: 60px 0 0 70px;
+     max-width: 30%;
+ }
+
+ .positive_text .btn-primary {}
